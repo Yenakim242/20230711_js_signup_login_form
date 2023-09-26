@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "poppins";
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightcoral;
+}
+
+main{
+    text-align: center;
+}
+
+#cerrar_sesion{
+    cursor: pointer;
+    text-decoration: underline;
+}

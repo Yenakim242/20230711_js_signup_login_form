@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro y acceder a la página web</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <main>
+        <h2>S4: LocalStorage y SessionStorage</h2>
+        <!-- LogIn -->
+        <div class="contenido01" id="contentAccount01">
+            <form class="log-in d-none">
+                <h3>Entrar</h3>
+                <input type="text" name="usuario_para_entrar" id="usuario_para_entrar" placeholder="Usuario">
+                <span></span>
+
+                <input type="password" name="claves_para_entrar" id="claves_para_entrar" placeholder="Contraseña">
+                <span></span>
+
+                <input type="button" value="Entrar" id="boton_entrar">
+                <span></span>
+                <p class="aRegistrar">¿No teines cuenta? ¡Registrate!</p>
+            </form>
+        </div>
+
+        <!-- Registro -->
+        <div class="contenido02" id="contentAccount02">
+            <form class="registrar">
+                <h3>Registro</h3>
+                <input type="text" name="usuario_para_registrar" id="usuario_para_registrar" placeholder="Usuario">
+                <span></span>
+
+                <input type="password" name="claves_para_registrar" id="claves_para_registrar" placeholder="Contraseña">
+                <span></span>
+
+                <input type="button" value="Registrate" id="boton_registrar">
+                <span></span>
+                <p class="aEntrar">¿Ya teines cuenta? ¡Entra!</p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
